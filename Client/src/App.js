@@ -1,7 +1,6 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import React from 'react';
-import { useState } from 'react';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -16,7 +15,9 @@ function App() {
       <Navbar />
      <div className="content">
       <Home />  
-      <p className= 'server'>{!data? "Loading...": data}</p>  
+      <p className= 'server'>
+      {!data? "Loading...": data}
+      </p>  
      </div>
     </div>
   );

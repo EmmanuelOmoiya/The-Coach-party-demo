@@ -40,6 +40,7 @@
 }
 .page-preview:hover{
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
 }
 .page-preview h2{
   font-size: 20px;

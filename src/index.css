@@ -1,0 +1,75 @@
+@import url('https://www.fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+*{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: brown
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: orangered;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.page-preview{
+  padding: 10px 6px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.page-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.page-preview h2{
+  font-size: 20px;
+  color: brown;
+  margin-bottom: 8px;
+}
+.linksspan
+{
+content: "";
+width: 30px;
+height: 2px;
+position: fixed;
+background-color: #000;
+border-radius: 2em;
+border: 1px solid black;
+cursor: pointer;
+transition: 0.500s ease;
+margin-left: 10px;
+margin-top: 2px;
+}
+.linksspan{
+    width: 3px;
+}
+.alinks:hover .linksspan#hm{
+  width: 40px;
+}
+.alinks:hover .linksspan#np{
+  width: 68px;
+}
+button{
+  border: none;
+  background-color: transparent;
+}
